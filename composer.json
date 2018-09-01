@@ -1,0 +1,29 @@
+{
+    "name": "i2/uuid",
+    "description": "generates a UUID often a int primary key",
+    "type": "library",
+    "require": {
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "minimum-stability" : "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iuri Guntchnigg",
+            "email": "iuri@i2.com"
+        }
+    ],
+    "autoload": {
+       "psr-4": {
+         "I2\\UUID\\": "src"
+        }
+    },
+    "extra": {
+        "aliases": {
+            "Uuid" : "Webpatser\\Uuid\\Uuid"
+        }
+    }
+}
